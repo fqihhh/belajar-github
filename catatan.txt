@@ -29,3 +29,10 @@ note :
 nama_file = spesifik file tersebut
 
 vocabulary :
+
+
+Git Branching Strategy Populer :
+
+Gitflow Workflow → pakai banyak branch terstruktur (main, develop, feature, release, hotfix).
+Trunk Based Development → semua kerja fokus ke 1 branch utama (commit kecil & sering).
+Forking Workflow → kerja di repo hasil fork sendiri, lalu kirim perubahan via pull request.

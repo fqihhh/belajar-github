@@ -17,6 +17,9 @@ git log --oneline : sama semerti git log namun lebih ringkas
 git show (code hasnya) : untuk melihat perubahan pada commit
 git diff (code hash 1) (code hash 2) : untuk membandingkan 2 commit secara spesifik
 git commit --amend : untuk reset soft commit sebelumnya
+git merge : menggabungkan 2 branch, dengan satu kommit baru pada yang dituju
+git rebase : menggabungkan 2 branch namun menduplikat semua coommit dari sumber branch dan menyimpannya pada branch yang dituju
+git merge --squash : menggabungkan 2 branch, dengan 1 commit baru pada main atau branch 
 
 catatan :
 - difftool 83
@@ -29,10 +32,3 @@ note :
 nama_file = spesifik file tersebut
 
 vocabulary :
-
-
-Git Branching Strategy Populer :
-
-Gitflow Workflow → pakai banyak branch terstruktur (main, develop, feature, release, hotfix).
-Trunk Based Development → semua kerja fokus ke 1 branch utama (commit kecil & sering).
-Forking Workflow → kerja di repo hasil fork sendiri, lalu kirim perubahan via pull request.
